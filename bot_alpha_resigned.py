@@ -29,8 +29,8 @@ nadya.login(token=str(client.authToken))
 nadya.loginResult()
 print "Nadya-Login Success\n\n=====[Sukses Login]====="
 print "[DEBUG] Membuka Webdriver sebagai Youtube_player [DISABLED] Reason: Some People may use mobile to run this bot"
-options = Options()
-options.add_argument("--headless")
+#options = Options()
+#options.add_argument("--headless")
 #browser = webdriver.Firefox(firefox_options=options,executable_path='D:\\phantomjs\\bin\\geckodriver.exe')
 
 reload(sys)
