@@ -1185,28 +1185,36 @@ def bot(op):
                                   
  
             elif msg.text in ["Kagi 1"]:
-                sendPesan(op,msg.to,creatorMessage)
+                #sendPesan(op,msg.to,creatorMessage)
+                nadya.sendText(msg.to,creatorMessage)
 
             elif msg.text in ["Kagi 2"]:
-                sendPesan(op,msg.to, msg,groupMessage)
+                #sendPesan(op,msg.to, msg,groupMessage)
+                nadya.sendText(msg.to,groupMessage)
 
             elif msg.text in ["Kagi"]:
-                sendPesan(op,msg.to,helpMessage)
+                #sendPesan(op,msg.to,helpMessage)
+                nadya.sendText(msg.to,helpMessage)
 
             elif msg.text in ["Kagi 3"]:
-                sendPesan(op,msg.to, msg,selfMessage)
+                #sendPesan(op,msg.to, msg,selfMessage)
+                nadya.sendText(msg.to,selfMessage)
 
             elif msg.text in ["Kagi 4"]:
-                sendPesan(op,msg.to,botMessage)
+                #sendPesan(op,msg.to,botMessage)
+                nadya.sendText(msg.to,botMessage)
 
             elif msg.text in ["Kagi 5"]:
-                sendPesan(op,msg.to,setMessage)
+                #sendPesan(op,msg.to,setMessage)
+                nadya.sendText(msg.to,setMessage)
 
             elif msg.text in ["Kagi 6"]:
-                sendPesan(op,msg.to,mediaMessage)
+#                sendPesan(op,msg.to,mediaMessage)
+                nadya.sendText(msg.to,mediaMessage)
                 
             elif msg.text in ["Kagi 7"]:
-                sendPesan(op,msg.to,adminMessage)                
+#                sendPesan(op,msg.to,adminMessage)
+                nadya.sendText(msg.to,adminMessage)                
                 
 
  
