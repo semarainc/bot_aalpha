@@ -11,7 +11,7 @@ from googletrans import Translator
 from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
-client = LineClient('randi.verra@gmail.com','akugila344')
+client = LineClient('email-akun-line-bot','Pass-akun-bot-line')
 client.log("Auth Token : " + str(client.authToken)) #debug token nya
 
 #pembatas fungsi linepy dengan linetcr
