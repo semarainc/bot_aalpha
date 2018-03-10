@@ -53,7 +53,11 @@ Credit By@ Vipro.
 ------
 - `Add My ID LINE : gjxvipro`
 
+Forked and Edited By@ semarainc. 
+------
+- `Add My ID LINE : gjxvipro`
+
 Thx To :
 ------
 - `LINE-TCR TEAM`
-
+- `LINEPY TEAM`
